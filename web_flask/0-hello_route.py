@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""0x04. AirBnB clone - Web framework, task 0. Hello Flask!
+"""Hello Flask!
 """
 from flask import Flask
 from os import environ
