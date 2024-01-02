@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Task 8 Cities by states
+"""Cities by states
 """
 from flask import Flask, render_template
 from os import environ
