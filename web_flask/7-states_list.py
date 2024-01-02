@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 """
 Task 8 List of states
-Starts a Flask web application, WebApp must be listening
-On 0.0.0.0 port 5000
 """
 from flask import Flask, render_template
 from os import environ
