@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Cities by states
+"""0x04. AirBnB clone - Web framework, task 9. Cities by states
 """
 from flask import Flask, render_template
 from os import environ
