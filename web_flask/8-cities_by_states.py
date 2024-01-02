@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""0x04. AirBnB clone - Web framework, task 9. Cities by states
+"""Cities by states
 """
 from flask import Flask, render_template
 from os import environ
@@ -12,7 +12,7 @@ environ['FLASK_ENV'] = 'development'
 
 @app.teardown_appcontext
 def states_list_teardown(self):
-    """ Ensures SQLAlchemy session opened to serve dynamic content for HTML
+    """Ensures SQLAlchemy session opened to serve dynamic content for HTML
     templates is closed after serving.
     """
     storage.close()
@@ -20,7 +20,7 @@ def states_list_teardown(self):
 
 @app.route('/cities_by_states', strict_slashes=False)
 def cities_by_states():
-    """ Requests list of `State`s ordered by name, which populates HTML
+    """Requests list of `State`s ordered by name, which populates HTML
     template served to '/cities_by_states'.
     """
     return render_template('8-cities_by_states.html',
